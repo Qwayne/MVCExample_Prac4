@@ -2,6 +2,7 @@ package mvcexample;
 
 // This is the red view
 // It displays the B component of the model (data base)
+//Second commit
 
 import java.util.*;  // For Observer
 import java.awt.*;
