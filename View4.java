@@ -30,6 +30,7 @@ public class View4 extends JPanel implements Observer {
         add(display);
         
         // Subscribe to the model
+        
         model.addObserver(this);
       
     } // constructor
