@@ -20,13 +20,13 @@ public class Controller2 extends JFrame
     private JButton refreshViews; // To prompt them to refresh their contents from the model
  
     // Constructor
-    public Controller2(Model model, String name) {
+    public Controller2(Model model) {
     
         // Record reference to the model
         this.model = model;
         
         // Configure the window
-        setTitle(name);
+        setTitle("Controller2");
         setLocation(40,200);
         setSize(350,150);
         setDefaultCloseOperation(DO_NOTHING_ON_CLOSE);
@@ -58,10 +58,10 @@ public class Controller2 extends JFrame
             view3.clear();
             view4.clear();
         }
-      /*if (e.getSource() == refreshViews) {
+        if (e.getSource() == refreshViews) {
             view3.update();
             view4.update();
-        }*/
+        }
         
     } // actionPerformed
     
