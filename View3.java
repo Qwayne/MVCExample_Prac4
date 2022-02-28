@@ -9,7 +9,7 @@ import java.util.*;  // For Observer
 import java.awt.*;
 import javax.swing.*;
 
-public class View3 extends JPanel implements Observer{
+public class View3 extends JPanel implements{
   
     private Model model;
     private Controller2 contr;   // Parent Frame
@@ -28,9 +28,6 @@ public class View3 extends JPanel implements Observer{
         add(new JLabel("View3"));
         display = new JTextField("No data", 15);
         add(display);
-        
-        // Subscribe to the model
-        model.addObserver(this);
         
     } // constructor
     
