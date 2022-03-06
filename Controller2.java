@@ -41,7 +41,9 @@ public class Controller2 extends JFrame
        // window.add(refreshViews);
        // refreshViews.addActionListener(this);
         // Create views
+        
         view3 = new View3(this, model);
+        
         window.add(view3);
         view4 = new View4(this, model);
         window.add(view4);
